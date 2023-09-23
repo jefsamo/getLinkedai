@@ -1,0 +1,480 @@
+.home {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  height: fit-content;
+  margin-left: 150px;
+}
+
+.left-home {
+  position: relative;
+}
+
+.home-star {
+  position: absolute;
+  left: 100px;
+}
+
+.getLinked {
+  position: relative;
+  top: 100px;
+}
+
+.bulb {
+  position: absolute;
+  right: 70px;
+}
+
+.getTechContainer {
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
+
+.getTechContainer p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.kathon {
+  display: flex;
+  align-items: center;
+}
+
+.chain {
+  width: 50px;
+}
+
+.getTech {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.getTechContainer button {
+  margin-top: 20px;
+}
+
+.timer {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 100px;
+}
+
+.timer h1 {
+  color: #fff;
+  font-family: Unica One;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.timer span {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.right-home {
+  position: relative;
+}
+
+.right-home h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.right-home-container {
+  position: relative;
+}
+
+.universe {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rule {
+  position: absolute;
+  right: 70px;
+}
+
+.version {
+  color: #d434fe;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  gap: 50px;
+  margin: 100px auto;
+}
+/* .guided {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  gap: 50px;
+  margin: 50px auto;
+} */
+
+.left-hack {
+  position: relative;
+}
+
+.left-hack .gra {
+  position: absolute;
+  top: 30%;
+  left: -30px;
+}
+
+.left-hack .arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.right-hack {
+  position: relative;
+}
+
+.right-hack h1 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.star-purple {
+  position: absolute;
+  right: 0;
+  top: 120px;
+}
+
+.tech1 {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 32px;
+}
+
+.right-hack p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px;
+}
+
+.left-guildlines {
+  margin-top: 100px;
+}
+
+.left-guildlines h1 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.left-guildlines .guides {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.right-guildlines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-attributes {
+  position: relative;
+  height: 500px;
+}
+
+.attr-star {
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+.chart-human-container {
+  width: 100%;
+  position: absolute;
+  top: 150px;
+}
+
+.ellipse {
+  position: absolute;
+  /* left: 100px; */
+  z-index: -1;
+  top: -70px;
+  left: 30px;
+}
+
+.chart-human {
+  width: 80%;
+}
+
+.attr-star2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.right-attributes h1 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.span-attr {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.key-p {
+  color: #ff26b9;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.attr-p {
+  margin-top: 20px;
+}
+
+.right-attributes button {
+  margin-top: 40px;
+}
+
+.left-faq {
+  position: relative;
+}
+
+.left-faq-inner {
+  position: absolute;
+  top: 50px;
+  margin-left: 60px;
+}
+
+.left-faq-inner h1 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.left-faq-inner .faq {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.right-faq {
+  width: 100%;
+}
+
+.right-faq img {
+  width: 95%;
+}
+
+.home-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .left-home {
+    display: none;
+  }
+
+  .right-home {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .home-mobile {
+    display: block;
+  }
+  .total-app {
+    display: none;
+  }
+
+  .ignite {
+    position: relative;
+    padding: 10px;
+  }
+
+  .ignite .ignite-h1 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .rule2 {
+    position: absolute;
+    right: 40px;
+  }
+
+  .getLinkedMobile {
+    position: relative;
+    height: 700px;
+    top: 50px;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+
+  .bulb2 {
+    position: absolute;
+    right: 70px;
+    top: -20px;
+  }
+
+  .geth1 {
+    color: #fff;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .geth2 {
+    color: #fff;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .one2 {
+    color: #d434fe;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .participate-container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .getLinkedMobile button {
+    width: 152px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(
+      270deg,
+      #903aff 0%,
+      #d434fe 56.42%,
+      #ff26b9 99.99%,
+      #fe34b9 100%
+    );
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .mobile-hackathon {
+    width: 100%;
+  }
+
+  .timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .timer-mobile {
+    display: flex;
+    gap: 10px;
+    /* display: flex;
+    gap: 10px;
+    width: 100%; */
+  }
+
+  .timer-mobile h1 {
+    color: #fff;
+    font-family: Unica One;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .timer-mobile span {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .tech-hack-mobile {
+    text-align: center;
+    height: 600px;
+  }
+
+  .tech-hack-mobile h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .thack {
+    color: #d434fe;
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .p-container {
+    width: 80%;
+    margin: auto;
+  }
+}

@@ -1,0 +1,81 @@
+.partners {
+  width: 80%;
+  margin: auto;
+  height: fit-content;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.partners h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.partners p {
+  text-align: center;
+}
+
+.sponsors {
+  margin-top: 100px;
+  height: 560px;
+  border-radius: 5px;
+  border: 1px solid #d434fe;
+  background: rgba(255, 255, 255, 0.01);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-sponsors {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  /* border: 1px solid #d434fe; */
+}
+
+.top-sponsor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sponsor-border {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.sponsor-border:first-child {
+  margin-left: 20px;
+  border-bottom: 4px solid #d434fe;
+}
+.sponsor-border:last-child {
+  border-bottom: 4px solid #d434fe;
+  margin-right: 100px;
+}
+.vertical-rule {
+  width: 4px;
+  height: 112.476px;
+  background: #d434fe;
+}
+
+.liberty {
+  height: 40.432px;
+}
+
+.bottom-sponsor {
+  display: flex;
+}
+
+.bottom-sponsor-border {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}

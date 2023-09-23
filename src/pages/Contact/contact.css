@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../../fonts/OTF/ClashDisplay-Bold.otf");
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  width: 70%;
+  margin: auto;
+}
+
+.left-contact {
+  margin-top: 50px;
+}
+
+.left-contact h1 {
+  font-family: Clash Display;
+  color: #d434fe;
+}
+.share {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.left-contact .info {
+  margin: 10px 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a:not(:first-child) {
+  margin-left: 10px;
+}
+
+.right-contact {
+  height: 611px;
+  width: 100%;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.right-contact-content {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.right-contact-content h1 {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.right-contact-content input,
+textarea {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.right-contact-content input {
+  height: 47px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  color: #fff;
+}
+
+.right-contact-content textarea {
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  color: #fff;
+}
+
+.right-contact-content input::placeholder,
+textarea::placeholder {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.contact-button {
+  text-align: center;
+}
+/* 
+@media only screen and (max-width: 600px) {
+  .contact {
+   display: ;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  .contact {
+    grid-template-columns: 1fr;
+    width: 80%;
+  }
+
+  .right-contact {
+    background: none;
+  }
+
+  .right-contact-content {
+    width: 100%;
+  }
+
+  .right-contact-content h1 {
+    display: none;
+  }
+}

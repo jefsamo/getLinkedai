@@ -1,0 +1,70 @@
+.left-privacy h1 {
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.left-privacy span {
+  color: #d434fe;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.updated-last {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.below-privacy {
+  margin: 20px 0;
+}
+
+.licensing {
+  height: 608px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d434fe;
+  background: rgba(217, 217, 217, 0.03);
+  padding: 40px;
+}
+
+.license-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.licensing h2 {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.standard-license {
+  font-weight: 700;
+}
+
+.left-details {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.left-details img {
+  align-self: flex-start;
+  margin-top: 5px;
+}
+
+.right-privacy img {
+  width: 90%;
+  height: auto;
+}

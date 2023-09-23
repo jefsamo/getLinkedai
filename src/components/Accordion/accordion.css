@@ -1,0 +1,26 @@
+.accordion-item {
+  border-bottom: 1px solid #d434fe;
+
+  padding: 20px 24px;
+}
+
+.accordion-item1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.content-box {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}

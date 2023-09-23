@@ -1,0 +1,118 @@
+.timeline {
+  position: relative;
+}
+
+.timeline .t-h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Clash Display;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.timeline .t-paragraph {
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.timeline-row {
+  width: 70%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-timeline {
+  flex: 2;
+  align-self: flex-end;
+}
+
+.left-timeline .odd-header {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: right;
+}
+
+.left-timeline .odd-paragraph {
+  color: #fff;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+}
+
+.left-timeline .even-paragraph {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: right;
+}
+.center-timeline {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.right-timeline {
+  flex: 2;
+  align-self: flex-end;
+}
+
+.right-timeline .odd-paragraph {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.right-timeline .even-header {
+  color: #d434fe;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.right-timeline .even-paragraph {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.center-line {
+  width: 4px;
+  height: 137px;
+  background: #d434fe;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  background: linear-gradient(270deg, #903aff 0%, #d434fe 100%);
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}

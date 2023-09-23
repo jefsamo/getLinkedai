@@ -1,0 +1,24 @@
+.intro {
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 600px;
+  margin: 20px 0 0 150px;
+}
+
+.leftGrid {
+  position: relative;
+}
+.rightGrid {
+  background-image: url("/universe.png");
+}
+
+.star {
+  position: absolute;
+  left: 50px;
+}
+
+.hackathon {
+  position: absolute;
+  top: 100px;
+}
