@@ -26,16 +26,16 @@ const Header = () => {
           <div className="linksContainer">
             <ul className="navList">
               <li className="navLink">
-                <NavLink to="/random">Timeline</NavLink>
+                <NavLink to="#">Timeline</NavLink>
               </li>
               <li className="navLink">
-                <NavLink to="/random">Overview</NavLink>
+                <NavLink to="#">Overview</NavLink>
               </li>
               <li className="navLink">
-                <NavLink to="/random">FAQs</NavLink>
+                <NavLink to="#">FAQs</NavLink>
               </li>
               <li className="navLink">
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="#">Contact</NavLink>
               </li>
             </ul>
             <div onClick={onClick}>

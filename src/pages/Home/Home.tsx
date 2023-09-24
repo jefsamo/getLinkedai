@@ -19,9 +19,11 @@ import Arrow2 from "/arrow2.png";
 import StarGra from "/stargra.png";
 import Starpurple from "/starpurple.png";
 import LadySitting from "/ladysitting.png";
+import LadySitting2 from "/ladysitting2.png";
 import Star2 from "/star-2.png";
 import Ellipse from "/Ellipse.png";
 import ChartHuman from "/chartHuman.png";
+import ChartHuman2 from "/chartHuman2.png";
 import Thought from "/thought.png";
 
 import Button from "../../components/Button/Button";
@@ -257,7 +259,61 @@ const Home = () => {
             </p>
           </div>
           <HorizontalRule />
-          <div className="mobile-rules">wal</div>
+          <div className="p-container">
+            <div className="mobile-rules">
+              <img src={LadySitting2} alt="" />
+              <h2>
+                Rules and <br /> <span className="rules-h2">Guidelines</span>
+              </h2>
+              <p>
+                Our tech hackathon is a melting pot of visionaries, and its
+                purpose is as clear as day: to shape the future. Whether you're
+                a coding genius, a design maverick, or a concept wizard, you'll
+                have the chance to transform your ideas into reality. Solving
+                real-world problems, pushing the boundaries of technology, and
+                creating solutions that can change the world, that's what we're
+                all about!
+              </p>
+            </div>
+          </div>
+          <div className="judge-criteria-mobile">
+            <div className="p-container">
+              <img src={ChartHuman2} alt="" />
+              <h2>
+                Judging Criteria <br />
+                <span className="rules-h2">Key attributes</span>
+              </h2>
+              <p className="attr-p">
+                <span className="key-p">Innovation and Creativity: </span>
+                Evaluate the uniqueness and creativity of the solution. Consider
+                whether it addresses a real-world problem in a novel way or
+                introduces innovative features.
+              </p>
+              <p className="attr-p">
+                <span className="key-p">Functionality: </span>Assess how well
+                the solution works. Does it perform its intended functions
+                effectively and without major issues? Judges would consider the
+                completeness and robustness of the solution.
+              </p>
+              <p className="attr-p">
+                <span className="key-p">Impact and Relevance: </span>Determine
+                the potential impact of the solution in the real world. Does it
+                address a significant problem, and is it relevant to the target
+                audience? Judges would assess the potential social, economic, or
+                environmental benefits.
+              </p>
+              <p className="attr-p">
+                <span className="key-p">Adherence to Hackathon Rules: </span>
+                Judges will Ensure that the team adhered to the rules and
+                guidelines of the hackathon, including deadlines, use of
+                specific technologies or APIs, and any other
+                competition-specific requirements.
+              </p>
+
+              <Button>Read More</Button>
+            </div>
+          </div>
+          <Footer />
         </div>
       </div>
     </>

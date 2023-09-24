@@ -465,7 +465,8 @@
     font-weight: 700;
   }
 
-  .thack {
+  .thack,
+  .rules-h2 {
     color: #d434fe;
     font-family: Clash Display;
     font-size: 20px;
@@ -476,5 +477,9 @@
   .p-container {
     width: 80%;
     margin: auto;
+  }
+
+  .judge-criteria-mobile {
+    margin-top: 50px;
   }
 }

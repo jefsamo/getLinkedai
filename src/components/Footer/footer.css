@@ -79,3 +79,31 @@
   font-style: normal;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    margin-top: 100px;
+    height: 715px;
+    padding: 30px;
+  }
+
+  .top-info p {
+    text-align: justify;
+  }
+
+  .logo-main {
+    text-align: left;
+  }
+
+  .inner-footer {
+    grid-template-columns: 1fr;
+  }
+  .top-info {
+    align-self: flex-start;
+  }
+
+  .footer-header,
+  ul {
+    text-align: left;
+  }
+}
