@@ -313,6 +313,7 @@ const Home = () => {
               <Button>Read More</Button>
             </div>
           </div>
+          <Privacy />
           <Footer />
         </div>
       </div>

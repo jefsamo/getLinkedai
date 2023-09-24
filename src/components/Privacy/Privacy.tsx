@@ -13,8 +13,8 @@ const Privacy = () => {
         </h1>
         <p className="updated-last">Last updated on September 12, 2023</p>
         <p className="below-privacy">
-          Below are our privacy & policy, which outline a lot of goodies. <br />
-          it’s our aim to always take of our participant
+          Below are our privacy & policy, which outline a lot of goodies. it’s
+          our aim to always take of our participant
         </p>
 
         <div className="licensing">

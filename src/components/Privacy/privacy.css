@@ -68,3 +68,33 @@
   width: 90%;
   height: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .left-privacy h1,
+  .left-privacy span {
+    font-size: 20px;
+  }
+
+  .updated-last {
+    font-size: 12px;
+  }
+
+  .licensing {
+    height: 635px;
+    padding: 10px;
+  }
+  .licensing h2 {
+    font-size: 13px;
+    text-align: left;
+  }
+
+  .standard-license {
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .left-details p {
+    font-size: 12px;
+    text-align: left;
+  }
+}
